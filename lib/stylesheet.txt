@@ -1,0 +1,107 @@
+
+QMainWindow {
+	border: 2px solid #00031F; 
+	border-style: outset;
+	background: qlineargradient( 
+		x1:0 y1:0, x2:1 y2:1, 
+		stop:0.000 #04061F,
+		stop:0.100 #00031F, 
+		stop:0.200 #04061F, 
+		stop:0.300 #00031F, 
+		stop:0.400 #04061F,
+		stop:0.5 #00031F,
+		stop:0.6 #04061F, 
+		stop:0.7 #00031F, 
+		stop:0.8 #04061F, 
+		stop:0.9 #00031F,
+		stop:1  #04061F
+		);
+}
+
+QWidget{
+	border-radius:3px;
+	color: #04061F
+}
+
+QPushButton{
+	border: 1px solid #CDDDDD;
+	background-color: rgba(250,250,250,0.3);
+	color: #CDDDDD
+}
+
+QPushButton:hover{
+	background-color: #2F3675;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,0.3);
+	color: #CDDDDD;
+}
+
+QPushButton:down{
+	color: red
+}
+
+QPushButton#encryptTab{
+	border-top-right-radius:0px;
+	border-bottom-right-radius: 0px;
+	border-right-width: 0px;
+}
+
+QPushButton#decryptTab{
+	border-top-left-radius:0px;
+	border-bottom-left-radius: 0px;
+	border-left-width:0px;
+}
+
+QPushButton#cipherBtn{
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+QPushButton#close, QPushButton#minimize{
+	border-width: 0px;
+	background-color: rgba(0,0,0,0);
+}
+QComboBox{
+	background-color: rgba(250,250,250,0.3);
+	font-size:14px;
+	align-items: center;
+}
+QListView{
+	background-color: rgba(250,250,250,0.3);
+}
+
+QLabel{
+	background-color: rgba(250,250,250,.2);
+	color: #CDDDDD;
+}
+QLabel#description{
+	background-color: rgba(0,0,0,0);
+	color: #CDDDDD;
+	font-size:14px;
+}
+QTextEdit{
+	background-color: rgba(150,150,150,0.3);
+	color: #CDDDDD;
+	font-size: 14px;
+	font-family: "Gothic";
+}
+QMessageBox{
+	background-color: #00031F;
+	border-color:  #00031F;
+	border-width: 2px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	width: 360px;
+	height: 180px;
+}
+QMessageBox QLabel{
+	background.color: rgba(255,255,255,0.2);
+}
+QMessageBox QPushButton{
+	background-color: #CDDDDD;
+	width: 70px;
+	height: 30px;
+	color: #00031F;
+}
