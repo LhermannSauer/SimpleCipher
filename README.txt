@@ -1,4 +1,4 @@
-# SimpleCipher
+# SimpleCipher 
 A simple cipher program that allows the used to cipher and decipher a message via a number of methods used throughout history.
 Currently working on Caesar Cipher, ROT13, Alberti Cipher and Vigenere Cipher.
 
